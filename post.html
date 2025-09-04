@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <section class="flex">
+      <div id="menu-btn" class="fas fa-bars-staggered"></div>
+      <a href="index.html" class="logo"><i class="fas  fa-briefcase"></i> Jobzy</a>
+
+      <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="Job.html">All Jobs</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="login.html">Account</a>
+
+      </nav>
+
+      <a href="post.html" class="btn" style="margin-top: 0;">Post Jobs</a>
+    </section>
+  </header>
+<body>
+  <form action="" method="post">
+  <div class="flex">
+    <div class="box2">
+      <p>name <span>*</span></p>
+      <input type="text" name="name" required maxlength="20" placeholder="enter your name" class="input">
+    </div>
+    <div class="box2">
+      <p>email <span>*</span></p>
+      <input type="text" name="email" required maxlength="50" placeholder="enter your email" class="input">
+    </div>
+    <div class="box2">
+      <p>number <span>*</span></p>
+      <input type="text" name="number" required min="0" required max="9999999999" required maxlength="20" placeholder="enter your number" class="input">
+    </div>
+
+  </div>
+  </form>
+  <p>message <span>*</span></p>
+
+  <textarea name="message" class="input" required maxlength="1000" placeholder="enter your message " cols="30" rows="10"></textarea>
+  <input type="submit" value="send message" name="send" class="btn">
+</body>
+  <footer class="footer">
+    <section class="grid">
+      <div class="box">
+        <h3>quick links</h3>
+        <a href="index.html"><i class="fas fa-angle-right"></i>Home</a>
+        <a href="about.html"><i class="fas fa-angle-right"></i>About Us</a>
+        <a href="Job.html"><i class="fas fa-angle-right"></i>All Jobs</a>
+        <a href="contact.html"><i class="fas fa-angle-right"></i>Contact Us</a>
+        <a href="#"><i class="fas fa-angle-right"></i>Filter Search</a>
+
+      </div>
+      <div class="box">
+        <h3>extra links</h3>
+       
+        <a href="#"><i class="fas fa-angle-right"></i>Account</a>
+        <a href="login.html"><i class="fas fa-angle-right"></i>Login</a>
+        <a href="register.html"><i class="fas fa-angle-right"></i>Register</a>
+        <a href="#"><i class="fas fa-angle-right"></i>Post Jobs</a>
+        <a href="#"><i class="fas fa-angle-right"></i>Dashboard</a>
+
+      </div>
+    <div class="box">
+      <h3>Follow Us</h3>
+      <a href="#"><i class="fab fa-facebook-f"></i>facebook</a>
+      <a href="#"><i class="fab fa-twitter "></i>twitter</a>
+      <a href="#"><i class="fab fa-instagram "></i>instagram</a>
+      <a href="#"><i class="fab fa-linkedin"></i>linkedin</a>
+      <a href="#"><i class="fab fa-youtube"></i>youtube</a>
+    </div>
+    </section>
+    <div class="credit">
+      all rights reserved!   </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
